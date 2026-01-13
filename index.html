@@ -45,24 +45,32 @@
             <details class="project-details">
                 <summary>
                     <h3>Bachelorarbeit: Design und Realisierung eines multispektralen Sensorsystems
-für die Anwendung in medizinischen Implantaten</h3>
+                        für die Anwendung in medizinischen Implantaten</h3>
                     <span class="open-icon">+</span>
                 </summary>
                 <div class="project-content">
                     <p>
-                        Entwicklung einer Messautomation zur automatischen Wareneingangskontrolle von RFID-Karten bei primion technology GmbH.
-                        Dieses Projekt umfasste Software (C++), Hardware (Schaltplandesign), Mechanik (CAD-Design / 3D Druck) und administrative Aufgaben.
+                        Im Rahmen des Projekts <strong>IMPLANT EYE</strong> wurde ein miniaturisiertes optisches Testsystem zur
+                        Infektionsdetektion an Knieprothesen untersucht. Fokus war die Integration eines multispektralen Sensorchips
+                        zur Analyse flüssiger Proben in <strong>Reflexion</strong> und <strong>Transmission</strong> im <strong>VIS–NIR</strong>-Spektralbereich.
                     </p>
                     <ul>
-                        <li>Vollmodularer Aufbau für flexible Anpassung an Karten- und Geräteformen.</li>
-                        <li>Steuerung über TFT-Touchscreen, Speicherung auf SD-Karte.</li>
-                        <li>Präzise Anfahrt und Abstandsmessung mittels Linearschlitten.</li>
-                        <li>Kosteneffizient durch 3D-gedruckte Teile (PETG).</li>
-                        <li>Goldnadelkontakte für Langlebigkeit.</li>
+                        <li>Realisierung eines kompakten Sensormoduls (Multispektralsensor + SMD-LEDs für VIS & NIR) auf eigens entworfener Leiterplatte.</li>
+                        <li>Integration in zwei Laboraufbauten für unterschiedliche Probengefäße: <strong>Küvette (10&nbsp;mm)</strong> und <strong>Kapillare (1&nbsp;mm)</strong>.</li>
+                        <li>Hardwarenahe Steuerung mit <strong>ESP32</strong>; Firmware mit Sensor‑Parametrierung, <strong>PWM</strong>-basierter LED‑Ansteuerung und seriellem Protokoll mit <strong>JSON</strong>-Ausgabe.</li>
+                        <li>Entwicklung einer PC‑Software (GUI) mit <strong>PySide6 (Qt)</strong> für Arbeitspunktsuche, Messkonfiguration, automatisierte Messfolgen und Datenvisualisierung.</li>
+                        <li>Systematische Messreihen mit Referenzproben (u.&nbsp;a. Milch, Hefezellen, definierte Farbstofflösungen) zur Bewertung von Charakteristik, Linearität und Rauschen.</li>
+                        <li>Ergebnis: Reproduzierbare Erfassung von Trübungsänderungen und relevanten spektralen Farbveränderungen im sichtbaren Spektrum; Ableitung von Messvorschriften mit unterschiedlichem Leistungsbedarf.</li>
                     </ul>
                     <div class="project-images">
-                        <!-- <img src="assets/images/transponder_1.jpg" alt="Transpondervalidierung Aufbau" /> -->
-                        <div class="image-placeholder">Bild hier einfügen: Transpondervalidierung</div>
+                        <img src="assets\images\BA\Laboraufbau_1mm_CAD_beschriftung.PNG" alt="Laboraufbau_1mm_CAD" />
+                        
+                    </div>
+                    <div class="project-images">
+                        <img src="assets\images\BA\GUI_messung_konfigurieren_ohne_beschriftung.PNG" alt="GUI_messung_konfigurieren" />
+                    </div>
+                    <div class="project-images">
+                        <img src="assets\images\BA\GUI_messergebnis.PNG" alt="GUI_messergebnis" />
                     </div>
                 </div>
             </details>
