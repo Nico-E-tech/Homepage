@@ -287,6 +287,12 @@ h3 {
     text-align: center;
 }
 
+.image-caption {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
 .video-embed {
     position: relative;
     width: 100%;
