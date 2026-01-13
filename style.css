@@ -135,6 +135,11 @@ a:hover {
     color: var(--secondary-color);
 }
 
+.project-links {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
 .contact-info a {
     color: var(--secondary-color);
     margin: 0 5px;
